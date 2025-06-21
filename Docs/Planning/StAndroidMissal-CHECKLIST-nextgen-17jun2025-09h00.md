@@ -5,16 +5,16 @@
 ### 1.1 Repository and Project Configuration
 
 - [ ] **Initialize Git Repository**
-  - [ ] Create .gitignore file with React Native and Vite specific patterns
-  - [ ] Set up initial README.md with project description and setup instructions
+  - [X] Create .gitignore file with React Native and Vite specific patterns
+  - [X] Set up initial README.md with project description and setup instructions
   - [ ] Configure EditorConfig and Prettier for consistent code formatting
 
-- [ ] **Create Project Structure**
-  - [ ] Initialize React Native project with TypeScript template
+- [/] **Create Project Structure**
+  - [/] Initialize React Native project with TypeScript template
     ```bash
     npx react-native init Sanctissimissa --template react-native-template-typescript
     ```
-  - [ ] Set up directory structure:
+  - [X] Set up directory structure:
     ```
     /src
       /core        # Platform-agnostic core logic
@@ -30,10 +30,10 @@
       /assets      # Shared assets
     ```
 
-- [ ] **Configure Package.json**
-  - [ ] Update name to "sanctissimissa"
-  - [ ] Set version to "1.0.0"
-  - [ ] Add scripts for both platforms:
+- [X] **Configure Package.json**
+  - [X] Update name to "sanctissimissa"
+  - [X] Set version to "1.0.0"
+  - [X] Add scripts for both platforms:
     ```json
     "scripts": {
       "android": "react-native run-android",
@@ -63,14 +63,14 @@
 
 ### 1.2 Web Support Configuration
 
-- [ ] **Install Vite and Related Packages**
+- [X] **Install Vite and Related Packages**
   ```bash
   npm install --save-dev vite @vitejs/plugin-react vite-plugin-react-native-web
   npm install react-dom react-native-web
   ```
 
-- [ ] **Create Vite Configuration**
-  - [ ] Create vite.config.ts file with React Native Web support
+- [X] **Create Vite Configuration**
+  - [X] Create vite.config.ts file with React Native Web support
     ```typescript
     import { defineConfig } from 'vite';
     import react from '@vitejs/plugin-react';
@@ -90,8 +90,8 @@
     ```
   - [ ] Configure build options for production
 
-- [ ] **Set Up Web Entry Point**
-  - [ ] Create index.html in project root
+- [X] **Set Up Web Entry Point**
+  - [X] Create index.html in project root
     ```html
     <!DOCTYPE html>
     <html lang="en">
@@ -108,10 +108,10 @@
     </body>
     </html>
     ```
-  - [ ] Create src/index.web.js for web-specific initialization
+  - [X] Create src/index.web.js for web-specific initialization
 
-- [ ] **Configure PWA Support**
-  - [ ] Create manifest.json with app details
+  - [X] **Configure PWA Support**
+    - [X] Create manifest.json with app details
     ```json
     {
       "name": "Sanctissimissa: St. Android's Missal & Breviary in the Extraordinary Form of the Roman Rite",

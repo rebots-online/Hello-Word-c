@@ -1,0 +1,10 @@
+@startuml
+folder "Hello-Word-c" {
+  folder "Docs" {}
+  folder "src" {}
+  file "package.json"
+  file ".gitignore"
+  file "index.html"
+  file "manifest.json"
+}
+@enduml

@@ -1,0 +1,6 @@
+@startuml
+folder "Hello-Word-c" {
+  folder "Docs" {}
+  file "README.md"
+}
+@enduml
