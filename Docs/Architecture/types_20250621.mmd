@@ -1,0 +1,26 @@
+classDiagram
+  class IStorageService {
+    +initialize()
+    +executeQuery(sql, params)
+    +transaction(callback)
+  }
+
+  class IAudioRecorder {
+    +record()
+    +stop()
+    +play(filePath)
+  }
+
+  class IDeviceInfo {
+    +getPlatform()
+    +isFoldable()
+  }
+
+  class VoiceNote {
+    id: string
+    date: string
+    title: string
+    filePath: string
+    duration: number
+    transcription: string
+  }
