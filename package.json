@@ -1,0 +1,13 @@
+{
+  "name": "sanctissimissa",
+  "version": "1.0.0",
+  "scripts": {
+    "android": "echo 'android build placeholder'",
+    "ios": "echo 'ios build placeholder'",
+    "web": "vite",
+    "build:web": "vite build",
+    "start": "echo 'react-native start placeholder'",
+    "test": "echo 'jest placeholder'",
+    "lint": "eslint ."
+  }
+}

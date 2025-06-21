@@ -1,0 +1,23 @@
+@startuml
+folder "Hello-Word-c" {
+  folder "Docs" {
+    folder "Architecture" {}
+    folder "Planning" {}
+    folder "checklists" {}
+  }
+  folder "src" {
+    folder "assets" {}
+    folder "components" {}
+    folder "core" {}
+    folder "hooks" {}
+    folder "navigation" {}
+    folder "platforms" {}
+    folder "screens" {}
+    folder "store" {}
+    folder "types" {}
+    folder "utils" {}
+  }
+  file "package.json"
+  file "index.html"
+}
+@enduml

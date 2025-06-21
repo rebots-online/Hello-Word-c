@@ -1,0 +1,15 @@
+' Repo structure generated 2025-06-21
+@startuml
+folder "Hello-Word-c" {
+  folder "Docs" {
+    folder "Architecture" {}
+    folder "Planning" {}
+    folder "checklists" {}
+    folder "InteractivePRD" {}
+    file "infographic.html"
+    file "CHECKLIST-HelloWordByGemini-17jun2025-09h30.md"
+    file "PRD-InteractiveSPA.html"
+  }
+  file "README.md"
+}
+@enduml

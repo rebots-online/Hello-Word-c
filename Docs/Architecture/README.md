@@ -8,3 +8,4 @@ This folder contains UML and Mermaid diagrams summarizing the Divinum Officium w
 - `optimal_sqlite_schema.*` highlights a proposed schema for future optimizations.
 
 These diagrams serve as a snapshot reference for further planning and review.
+\n- `repo_structure_20250621.*` and `repo_structure_src_20250621.*` capture the repository state as of 2025-06-21.
