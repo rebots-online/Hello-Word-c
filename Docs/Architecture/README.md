@@ -8,3 +8,9 @@ This folder contains UML and Mermaid diagrams summarizing the Divinum Officium w
 - `optimal_sqlite_schema.*` highlights a proposed schema for future optimizations.
 
 These diagrams serve as a snapshot reference for further planning and review.
+
+## Repository Structure
+
+`repo_structure.puml` and `repo_structure.mmd` visualize the current directory layout of the project. These diagrams are kept in sync with each development session. The diagrams were updated on 21 June 2025 after bootstrapping the `src` folder hierarchy.
+
+The repo now includes Vite, Tailwind CSS, and NativeWind configuration files (`vite.config.ts`, `tailwind.config.js`, `babel.config.js`), captured in the repository structure diagrams.

@@ -5,5 +5,26 @@ folder "Hello-Word" {
     folder "checklists" {}
   }
   file ".gitignore"
+  file "package.json"
+  file "vite.config.ts"
+  file "index.html"
+  file "tailwind.config.js"
+  file "babel.config.js"
+  folder "src" {
+    folder "assets" {}
+    folder "components" {}
+    folder "core" {
+      folder "hooks" {}
+      folder "services" {}
+      folder "types" {}
+    }
+    folder "hooks" {}
+    folder "navigation" {}
+    folder "platforms" {}
+    folder "screens" {}
+    folder "store" {}
+    folder "types" {}
+    folder "utils" {}
+  }
 }
 @enduml
