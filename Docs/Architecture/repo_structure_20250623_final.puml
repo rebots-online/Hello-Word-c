@@ -1,0 +1,17 @@
+@startuml
+folder "Hello-Word-c" {
+  folder "Docs" {
+    folder "Architecture" {}
+    folder "checklists" {}
+    file "session-20250623.md"
+  }
+  folder "src" {}
+  file "babel.config.js"
+  file "index.html"
+  file "manifest.json"
+  file "package.json"
+  file "package-lock.json"
+  file "tailwind.config.js"
+  file "README.md"
+}
+@enduml

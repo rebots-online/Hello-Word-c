@@ -17,6 +17,7 @@
     "tailwindcss": "^3.4.17"
   },
   "devDependencies": {
+    "@originjs/vite-plugin-commonjs": "^1.0.3",
     "@vitejs/plugin-react": "^4.5.2",
     "vite": "^6.3.5",
     "vite-plugin-react-native-web": "^2.1.1"
