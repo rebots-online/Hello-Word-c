@@ -18,3 +18,4 @@ Repository structures captured during development are stored with timestamps:
 
 - `repo_structure_20250621_initial.*` – state before initializing the `src` directory.
 - `repo_structure_20250621_final.*` – state after creating the initial project files.
+- `repo_structure_20250623_final.*` – state after adding @originjs/vite-plugin-commonjs and updating documentation.
